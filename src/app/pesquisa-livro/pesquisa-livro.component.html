@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="input-field col s6">
+      <input id="titulo" [(ngModel)]="titulo" name="titulo" type="text">
+      <label for="nome">Nome do livro</label>
+    </div>
+    <div class="input-field col s4">
+      <a class="waves-effect waves-light btn" (click)="buscarLivros()">
+        <i class="material-icons left">search</i>buscar</a>
+    </div>
+    <div class="input-field col s2" style="text-align: right;">
+      <a class="waves-effect waves-light btn red" routerLink="/new">
+        <i class="material-icons left">add_circle_outline</i>novo</a>
+    </div>
+  </div>
+  <table class="striped highlight centered">
+    <thead>
+      <tr>
+        <th class="white">Id</th>
+        <th class="white">Título</th>
+        <th class="white">Autor</th>
+        <th class="white">Editora</th>
+        <th class="white">Total de Páginas</th>
+        <th class="white" width="5%">Editar</th>
+        <th class="white" width="5%">Excluir</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let livro of listaLivros">
+        <td>{{ livro.id }}</td>
+        <td>{{ livro.titulo }}</td>
+        <td>{{ livro.autor }}</td>
+        <td>{{ livro.editora }}</td>
+        <td>{{ livro.totalPaginas }}</td>
+        <td>
+          <a class="waves-effect waves-light btn-small" (click)="editarLivro(livro.id)">
+            <i class="material-icons">edit</i>
+          </a>
+        </td>
+        <td>
+          <button class="waves-effect waves-light btn-small red" (click)="excluirLivro(livro.id)">
+            <i class="material-icons">delete</i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

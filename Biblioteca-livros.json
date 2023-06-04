@@ -1,0 +1,158 @@
+{
+  "generos": [
+    {
+      "id": 1,
+      "nome": "Romance"
+    },
+    {
+      "id": 2,
+      "nome": "Ficção Científica"
+    },
+    {
+      "id": 3,
+      "nome": "Suspense"
+    },
+    {
+      "id": 4,
+      "nome": "Fantasia"
+    }
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Orgulho e Preconceito",
+      "autor": "Jane Austen",
+      "generoId": 1,
+      "editora": "Editora A",
+      "totalPaginas": 320
+    },
+    {
+      "id": 2,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "generoId": 2,
+      "editora": "Editora B",
+      "totalPaginas": 400
+    },
+    {
+      "id": 3,
+      "titulo": "O Código Da Vinci",
+      "autor": "Dan Brown",
+      "generoId": 3,
+      "editora": "Editora C",
+      "totalPaginas": 480
+    },
+    {
+      "id": 4,
+      "titulo": "Harry Potter e a Pedra Filosofal",
+      "autor": "J.K. Rowling",
+      "generoId": 4,
+      "editora": "Editora D",
+      "totalPaginas": 320
+    },
+    {
+      "id": 5,
+      "titulo": "A Culpa é das Estrelas",
+      "autor": "John Green",
+      "generoId": 1,
+      "editora": "Editora E",
+      "totalPaginas": 280
+    },
+    {
+      "id": 6,
+      "titulo": "Duna",
+      "autor": "Frank Herbert",
+      "generoId": 2,
+      "editora": "Editora F",
+      "totalPaginas": 520
+    },
+    {
+      "id": 7,
+      "titulo": "O Iluminado",
+      "autor": "Stephen King",
+      "generoId": 3,
+      "editora": "Editora G",
+      "totalPaginas": 450
+    },
+    {
+      "id": 8,
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "generoId": 4,
+      "editora": "Editora H",
+      "totalPaginas": 1000
+    },
+    {
+      "id": 9,
+      "titulo": "Romeu e Julieta",
+      "autor": "William Shakespeare",
+      "generoId": 1,
+      "editora": "Editora I",
+      "totalPaginas": 256
+    },
+    {
+      "id": 10,
+      "titulo": "Neuromancer",
+      "autor": "William Gibson",
+      "generoId": 2,
+      "editora": "Editora J",
+      "totalPaginas": 320
+    },
+    {
+      "id": 11,
+      "titulo": "O Último Desejo",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 300
+    },
+    {
+      "id": 12,
+      "titulo": "A Espada do Destino",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 350
+    },
+    {
+      "id": 13,
+      "titulo": "O Sangue dos Elfos",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 400
+    },
+    {
+      "id": 14,
+      "titulo": "Tempo do Desprezo",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 420
+    },
+    {
+      "id": 15,
+      "titulo": "Batismo de Fogo",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 380
+    },
+    {
+      "id": 16,
+      "titulo": "A Torre da Andorinha",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 450
+    },
+    {
+      "id": 17,
+      "titulo": "A Senhora do Lago",
+      "autor": "Andrzej Sapkowski",
+      "generoId": 4,
+      "editora": "Editora K",
+      "totalPaginas": 500
+    }
+  ]
+}
